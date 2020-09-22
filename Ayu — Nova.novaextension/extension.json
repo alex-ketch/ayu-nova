@@ -1,0 +1,11 @@
+{
+  "identifier": "co.ketch.ayu",
+  "name": "Ayu",
+  "organization": "Alex Ketch",
+  "description": "Port of the Ayu theme for Nova.",
+  "version": "1.0",
+  "categories": ["themes"],
+  "license": "MIT",
+  "repository": "https://github.com/alex-ketch/ayu-nova",
+  "bugs": "https://github.com/alex-ketch/ayu-nova/issues"
+}

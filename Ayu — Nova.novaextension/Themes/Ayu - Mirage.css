@@ -1,0 +1,338 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-accent-color: #ffcc66;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: #1f2430;
+  border-color: #323a4d;
+}
+meta.titlebar {
+  color: #cbccc6;
+  background: #1f2430;
+  border-color: #323a4d;
+}
+meta.titlebar.inactive {
+  background-color: #1f2430;
+}
+
+meta.button {
+  background: #33415e;
+  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  color: #707a8c;
+}
+meta.button.highlighted {
+  background: linear-gradient(hsl(218, 12%, 43%), hsl(218, 12%, 35%));
+  color: #ffcc66;
+}
+meta.button.selected {
+  background: linear-gradient(hsl(40, 100%, 70%), hsl(40, 94%, 68%));
+  shadow: none;
+  color: #;
+}
+meta.button.highlighted.selected {
+  background: linear-gradient(hsl(40, 100%, 70%), hsl(40, 94%, 68%));
+  color: #1f2430;
+}
+meta.button.disabled {
+  background: #373e4c;
+  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  color: #606a7a;
+}
+
+meta.textfield {
+  background-color: #232834;
+  border-color: #323a4c;
+}
+
+meta.accent {
+  color: hsb(204, 78%, 97%);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #1f2430;
+  border-color: #323a4d;
+}
+
+meta.document.button {
+  background: #33415e;
+  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  color: #707a8c;
+}
+meta.document.button.highlighted {
+  background: linear-gradient(hsl(218, 12%, 43%), hsl(218, 12%, 35%));
+  color: #ffcc66;
+}
+meta.document.button.selected {
+  background: linear-gradient(hsl(40, 100%, 70%), hsl(40, 94%, 68%));
+}
+meta.document.button.highlighted.selected {
+  background: linear-gradient(hsl(40, 100%, 70%), hsl(40, 94%, 68%));
+  color: #1f2430;
+}
+meta.document.button.disabled {
+  background: #373e4c;
+  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  color: #606a7a;
+}
+
+meta.document.textfield {
+  background-color: #232834;
+  border-color: #323a4c;
+}
+
+/* Text */
+meta.text {
+  color: hsb(210, 10%, 95%);
+}
+meta.text.invisible {
+  color: hsb(210, 20%, 20%);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: hsl(222, 22%, 20%);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: #707a8c4d;
+}
+
+/* Gutter */
+meta.gutter {
+  color: #707a8c66;
+}
+
+meta.gutter.selected {
+  background-color: hsl(222, 22%, 20%);
+  color: #cbccc6;
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+  color: #ffa759;
+}
+comment {
+  color: #5c6773;
+  font-style: italic;
+}
+processing {
+  color: #5c6773;
+}
+declaration {
+  color: #5c6773;
+}
+bracket {
+  color: #707a8c;
+}
+operator {
+  color: F29E74;
+}
+invalid {
+  background-color: hsb(355, 82%, 96%);
+  color: #ff3333;
+}
+link {
+  color: #ffa759;
+}
+
+/* Values */
+value.boolean {
+  color: #ffa759;
+}
+value.null {
+  color: #ffa759;
+}
+value.number {
+  color: #ffa759;
+}
+value.entity {
+  color: #73d0ff;
+}
+value.symbol {
+  color: #bae67e;
+}
+
+/* Identifiers */
+identifier.type {
+  color: hsb(258, 40%, 87%);
+}
+identifier.constant {
+}
+identifier.global,
+identifier.variable {
+  color: #f29e74;
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #ffd580;
+}
+identifier.key {
+  color: #ffa759;
+}
+identifier.argument {
+  color: #bae67e;
+}
+
+/* Strings */
+string {
+  color: #cbccc6;
+}
+string.key {
+  color: #5ccfe6;
+}
+string-template {
+  color: #bae67e;
+}
+string-template.value {
+  color: ##cbccc6;
+}
+regex {
+  color: #95e6cb;
+}
+regex.escaped {
+  color: #95e6cb;
+}
+cdata {
+  color: #73d0ff;
+}
+
+/* Markup */
+markup.heading {
+  color: #bae67e;
+  font-weight: bold;
+}
+markup.line {
+  color: #5c6773;
+}
+markup.bold {
+  color: #f28779;
+  font-weight: bold;
+}
+markup.italic {
+  color: #f28779;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: hsb(0, 60%, 100%);
+}
+markup.list.item {
+  color: #ffd580;
+}
+markup.code {
+  background-color: #cbccc605;
+}
+
+/* Types */
+/* TODO */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: hsb(258, 40%, 87%);
+}
+
+/* Members */
+/* TODO */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: hsb(210, 10%, 100%);
+}
+
+/* Tags */
+tag {
+  color: #73d0ff;
+}
+tag.framework {
+  color: hsb(258, 40%, 87%);
+}
+tag.attribute.name {
+  color: #ffcc66;
+}
+tag.attribute.value {
+  color: #bae67e;
+}
+tag.attribute.value.link {
+  color: #ffa759;
+}
+
+/* Styles */
+style.at {
+  color: hsb(25, 75%, 100%);
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+  color: #5ccfe6;
+}
+style.selector.identifier.id {
+  color: #ffcc66;
+}
+style.selector.identifier.class {
+  color: #bae67e;
+}
+style.selector.pseudoclass {
+  color: #cbccc6;
+  font-style: italic;
+}
+style.selector.pseudoelement {
+  color: #73d0ff;
+}
+style.attribute.name {
+  color: #707a8c;
+  font-weight: bold;
+}
+style.value.number {
+  color: #cbccc6;
+}
+style.value.color.hex {
+  color: #5ccfe6;
+}
+style.value.keyword {
+  color: #ffa759;
+}
+style.value.color.named {
+  color: #ffa759;
+}
+
+/* Terminal */
+
+terminal.black {
+  color: #000000;
+}
+terminal.red {
+  color: #ff4c41;
+}
+terminal.green {
+  color: #c4d264;
+}
+terminal.yellow {
+  color: #eccd58;
+}
+terminal.blue {
+  color: #40b2e0;
+}
+terminal.magenta {
+  color: #f5878a;
+}
+terminal.cyan {
+  color: #a3e9d4;
+}
